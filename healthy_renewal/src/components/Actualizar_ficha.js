@@ -26,7 +26,7 @@ const Actualizar_ficha = () => {
                                 <input type='text' id='txtIndiceMasa' name='indiceMasa'/>
                             </div>
                             <div className='campito'>
-                                <label id='lblFrecuenciaCardiacaActiva'> Frecuencia cardiaca activa</label>
+                                <label id='lblFrecuenciaCardiacaActiva' htmlFor='txtFrecuenciaCardiacaActiva'> Frecuencia cardiaca activa</label>
                                 <input type='text' id='txtFrecuenciaCardiacaActiva' name='frecuenciaCardiacaActiva'/>
                             </div>
                         </div>
