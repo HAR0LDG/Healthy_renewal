@@ -4,6 +4,7 @@ import Eliminar_cuenta from './components/Eliminar_cuenta'
 import Registro_cuenta from './components/Registro_cuenta'
 import Nueva_ficha from './components/Nueva_ficha';
 import Actualizar_ficha from './components/Actualizar_ficha';
+import Ficha_antropometrica from './components/Ficha_antropometrica';
 
 
 
@@ -14,7 +15,7 @@ function App() {
   }, []);
 
   return (
-   <Actualizar_ficha/>
+   <Ficha_antropometrica/>
 );
 
   
