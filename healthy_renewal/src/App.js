@@ -15,10 +15,8 @@ function App() {
   }, []);
 
   return (
-   <Ficha_antropometrica/>
-);
-
-  
+   <Actualizar_datos/>
+);  
 }
 
 export default App;

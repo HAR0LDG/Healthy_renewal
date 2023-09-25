@@ -13,10 +13,6 @@
     font-weight: bold;  
     color: #022B3A;  
 }
-.campoDatos select{
-    width: 80%;
-    text-align: center;
-}
 .campoDatos input{
     border: none; /* Borde del campo de texto */
     border-radius: 5px; /* Bordes redondeados */

@@ -4,7 +4,7 @@ import '../styles/Body.css';
 import Header2 from './Header2';
 import Footer from './Footer';
 
-const Registro_cuenta = ({onAceptarCuentaClick}) => {
+const Registro_cuenta = () => {
   return (
     <div id="body">
       <Header2/>
@@ -56,10 +56,7 @@ const Registro_cuenta = ({onAceptarCuentaClick}) => {
           </label>
           <br />
           <br />
-          <input id="btnAceptarCuenta" 
-                 type="submit" 
-                 value="Aceptar" 
-                 onClick={onAceptarCuentaClick}/>
+          <input id="btnAceptarCuenta" type="submit" value="Aceptar"/>
         </form>
       </section>
       <br />

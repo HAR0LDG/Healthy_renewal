@@ -4,7 +4,7 @@ import Footer from './Footer';
 import '../styles/Actualizar_datos.css';
 import '../styles/Body.css';
 
-const Actualizar_datos = ({ onEliminarClick}) => {
+const Actualizar_datos = () => {
   return (
     <div id="body">
         <Header2/>
@@ -51,10 +51,7 @@ const Actualizar_datos = ({ onEliminarClick}) => {
         <div id="divBotonesDatos">
           <input id="btnCancelarDatos" type="submit" value="Cancelar" />
           <input id="btnAceptarDatos" type="submit" value="Aceptar" />
-          <input id="btnEliminarDatos"
-                  type="submit" 
-                  value="Eliminar"
-                  onClick={onEliminarClick}/>
+          <input id="btnEliminarDatos" type="submit" value="Eliminar"/>
         </div>
       </section>
       <Footer/>
