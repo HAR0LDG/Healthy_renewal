@@ -40,8 +40,8 @@ const Registro_cuenta = () => {
               <label id="lblGeneroCuenta" htmlFor='listaGeneroCuenta'>¿Cuál es tu sexo biológico?</label>
               <select id="listaGeneroCuenta" name="genero">
                 <option value="selecciona una opcion">Selecciona una opción</option>
-                <option value="femenino">Femenino</option>
-                <option value="masculino">Masculino</option>
+                <option value="2">Femenino</option>
+                <option value="1">Masculino</option>
               </select>
             </div>
             <div className="campoCuenta">
